@@ -1,4 +1,4 @@
--- DAY 2
+-- DAY 5
 -- Challlenge Mathematical Functions
 -- select * from film
 
@@ -63,6 +63,6 @@ from rental
 /*
 select
 flight_no,
-replace(flight_no, 'PG', '') as flight_no_without_pg
+cast(replace(flight_no, 'PG', '') as int) as flight_no_without_pg
 from flights
 */

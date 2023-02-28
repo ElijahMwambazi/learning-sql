@@ -1,4 +1,4 @@
--- DAY 2
+-- DAY 4
 -- Challenge LENGTH, UPPER and LOWER
 -- select * from customer
 
